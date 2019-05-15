@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1b1ace-6fc9-4ea1-b265-b332f9342517" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataPreparation/BinarizeData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPreparation/NormalizeData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPreparation/RescaleData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPreparation/StandarizeData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataPreparation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureSelection/FeatureImportance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureSelection/PrincipleComponentAnalysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureSelection/RecursiveFeatureElimination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureSelection/UnivariateSelection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FeatureSelection/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPreparation/BinarizeData.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataPreparation/BinarizeData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,48 +28,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataPreparation/StandarizeData.py">
+        <entry file="file://$PROJECT_DIR$/FeatureSelection/UnivariateSelection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="122">
+              <caret line="19" column="28" selection-end-line="24" selection-end-column="10" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataPreparation/RescaleData.py">
+        <entry file="file://$PROJECT_DIR$/FeatureSelection/RecursiveFeatureElimination.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="46" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataPreparation/NormalizeData.py">
+        <entry file="file://$PROJECT_DIR$/FeatureSelection/PrincipleComponentAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#4#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataPreparation/BinarizeData.py">
+        <entry file="file://$PROJECT_DIR$/FeatureSelection/FeatureImportance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,11 +105,16 @@
         <option value="$PROJECT_DIR$/DataPreparation/StandarizeData.py" />
         <option value="$PROJECT_DIR$/DataPreparation/RescaleData.py" />
         <option value="$PROJECT_DIR$/DataPreparation/NormalizeData.py" />
+        <option value="$PROJECT_DIR$/FeatureSelection.py" />
         <option value="$PROJECT_DIR$/DataPreparation/BinarizeData.py" />
+        <option value="$PROJECT_DIR$/FeatureSelection/UnivariateSelection.py" />
+        <option value="$PROJECT_DIR$/FeatureSelection/RecursiveFeatureElimination.py" />
+        <option value="$PROJECT_DIR$/FeatureSelection/PrincipleComponentAnalysis.py" />
+        <option value="$PROJECT_DIR$/FeatureSelection/FeatureImportance.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="883" />
     <option name="y" value="60" />
     <option name="width" value="951" />
@@ -138,6 +144,11 @@
               <item name="MachineLearning_PythonRecipes" type="462c0819:PsiDirectoryNode" />
               <item name="DescriptiveStatistics" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MachineLearning_PythonRecipes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MachineLearning_PythonRecipes" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureSelection" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BinarizeData">
+  <component name="RunManager" selected="Python.FeatureImportance">
     <configuration name="BinarizeData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_PythonRecipes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +193,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DataHistograms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="FeatureImportance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_PythonRecipes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,11 +201,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataVisualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureSelection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataVisualization/UnivariateHistograms.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureSelection/FeatureImportance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NormalizeData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PrincipleComponentAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_PythonRecipes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +222,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataPreparation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureSelection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataPreparation/NormalizeData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureSelection/PrincipleComponentAnalysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +235,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RescaleData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="RecursiveFeatureElimination" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_PythonRecipes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,11 +243,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataPreparation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureSelection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataPreparation/RescaleData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureSelection/RecursiveFeatureElimination.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="StandarizeData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="UnivariateSelection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MachineLearning_PythonRecipes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,11 +264,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataPreparation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FeatureSelection" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataPreparation/StandarizeData.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FeatureSelection/UnivariateSelection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FeatureImportance" />
+        <item itemvalue="Python.PrincipleComponentAnalysis" />
+        <item itemvalue="Python.RecursiveFeatureElimination" />
+        <item itemvalue="Python.UnivariateSelection" />
         <item itemvalue="Python.BinarizeData" />
-        <item itemvalue="Python.NormalizeData" />
-        <item itemvalue="Python.RescaleData" />
-        <item itemvalue="Python.StandarizeData" />
-        <item itemvalue="Python.DataHistograms" />
       </list>
     </recent_temporary>
   </component>
@@ -290,15 +301,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="883" y="60" width="951" height="914" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="27" width="1850" height="949" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26077586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13245758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6092545" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38253382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -435,12 +445,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureSelection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataPreparation/BinarizeData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureSelection/UnivariateSelection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="19" column="28" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/sklearn/linear_model/logistic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="446" column="38" lean-forward="true" selection-start-line="446" selection-start-column="38" selection-end-line="446" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureSelection/PrincipleComponentAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#4#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureSelection/RecursiveFeatureElimination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FeatureSelection/FeatureImportance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

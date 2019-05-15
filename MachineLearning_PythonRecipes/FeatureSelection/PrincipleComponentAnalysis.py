@@ -1,6 +1,5 @@
-from sklearn.preprocessing import Binarizer
+from sklearn.decomposition import PCA
 from pandas import read_csv
-from numpy import set_printoptions
 
 
 def main():
@@ -12,11 +11,10 @@ def main():
     X = array[:, 0:8]
     Y = array[:, 8]
 
-    scaler = Binarizer(threshold=0.0).fit(X)
-    binaryX  = scaler.transform(X)
-
-    set_printoptions(precision=3)
-    print(binaryX[0:5, :])
+    pca = PCA(n_components=3)
+    fit = pca.fit(X)
+    print(fit.explained_variance_ratio_)
+    print(fit.components_)
 
 
 if __name__ == "__main__":

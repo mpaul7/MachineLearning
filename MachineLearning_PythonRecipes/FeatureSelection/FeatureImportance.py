@@ -1,6 +1,6 @@
-from sklearn.preprocessing import Binarizer
+from sklearn.feature_selection import RFE
+from sklearn.ensemble import ExtraTreesClassifier
 from pandas import read_csv
-from numpy import set_printoptions
 
 
 def main():
@@ -12,11 +12,9 @@ def main():
     X = array[:, 0:8]
     Y = array[:, 8]
 
-    scaler = Binarizer(threshold=0.0).fit(X)
-    binaryX  = scaler.transform(X)
-
-    set_printoptions(precision=3)
-    print(binaryX[0:5, :])
+    model = ExtraTreesClassifier(n_estimators=10) # to supress Future Warnings
+    model.fit(X, Y)
+    print(model.feature_importances_)
 
 
 if __name__ == "__main__":
