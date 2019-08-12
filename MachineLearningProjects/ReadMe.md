@@ -22,7 +22,7 @@
 - Algorithm Tuning
 - Ensembles
 
-6.**Finalize Model**
+6. **Finalize Model**
 - Predictions on validation dataset
 - Create standalone model on entire training dataset
 - Save model for later use
