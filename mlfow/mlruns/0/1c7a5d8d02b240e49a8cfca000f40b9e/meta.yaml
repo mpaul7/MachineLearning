@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Owner/DataScience/MachineLearning/mlfow/mlruns/0/1c7a5d8d02b240e49a8cfca000f40b9e/artifacts
+end_time: 1614888397569
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1c7a5d8d02b240e49a8cfca000f40b9e
+run_uuid: 1c7a5d8d02b240e49a8cfca000f40b9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1614888397448
+status: 3
+tags: []
+user_id: Owner
