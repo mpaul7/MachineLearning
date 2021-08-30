@@ -1,4 +1,4 @@
-from pandas import read_csv
+import pandas as pd
 
 
 def main():
@@ -16,5 +16,20 @@ def main():
     print(data_url.head())
 
 
+def _load_all_data(file_patterns, columns=None):
+    """Combine data from all files matching provided glob patterns into one pandas dataframe.
+    Optionally filter on a subset of columns.
+
+    Returns dataframe containing all data.
+    """
+    all_files = [f for pattern in file_patterns for f in glob.glob(pattern, recursive=True)]
+    data = [pd.read_csv(d, usecols=columns, skipinitialspace=True) for d in all_files]
+    df = pd.concat(data, ignore_index=True)
+    return df
+
+def test():
+    _load_all_data(files)
+
 if __name__ == "__main__":
-    main()
+    # main()
+    test()
