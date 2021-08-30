@@ -78,10 +78,10 @@ def generateDataDetails(dataset=None,
 
 if __name__ == '__main__':
 	# ======= Dataset 2020a ===============
-	generateDataDetails(dataset='Solana2019a',
-	                    dataset_path=r'C:\Users\Owner\mltat\data\mltat\Dataset\Solana2019a',
-	                    result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\all_dataset',
-	                    feat_train_path=r"C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\splits\30-70percent\all-data_train",
-	                    feat_test_path=r"C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\splits\30-70percent\all-data_test",
-	                    percentage=30
+	generateDataDetails(dataset='Solana2020a',
+	                    dataset_path=r"D:\Data\DataSets\Solana2020a",
+	                    result_path=r"D:\Data\TestFiles\train_test_splits\Solana2020a\all_dataset",
+	                    feat_train_path=r"D:\Data\TestFiles\train_test_splits\Solana2020a\splits\80-20percent\all-data_train",
+	                    feat_test_path=r"D:\Data\TestFiles\train_test_splits\Solana2020a\splits\80-20percent\all-data_test",
+	                    percentage=20
 	                    )
