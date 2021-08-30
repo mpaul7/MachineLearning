@@ -141,11 +141,11 @@ def merge_pcap_file_dl(keyname, tdlist):
 if __name__ == '__main__':
 
 	# ======= Process Features ===========================
-	# df = getFeatures(path=[r"C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\splits\30-70percent\7Class\train_30per"],
-	#                  result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\merged_files\Solana2019-30-70\merged_features_Solana2019a_30per.csv')
-	#
-	# mergeFeatures(df=df,
-	#               result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\final_test_data\solana2019-30-70\merged_training_features_Solana2019a_30per.csv')
+	df = getFeatures(path=[r"E:\Data\TestFiles\train_test_splits\Solana2020d\splits\50-50percent\6Class\train_50per"],
+	                 result_path=r'E:\Data\TestFiles\train_test_splits\Solana2020d\merged_files\Solana2020d-50-50\6Class_app_label\merged_train_data_Solana2020d_ 50per.csv')
+
+	mergeFeatures(df=df,
+	              result_path=r'E:\Data\TestFiles\train_test_splits\Solana2020d\final_test_data\Solana2020d-50-50\6Class_app_label\train_data_6class_Solana2020d_50per.csv')
 
 	# =======Process labels ==============================
 	# df = getLabels(
@@ -156,9 +156,9 @@ if __name__ == '__main__':
 	#             result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\final_test_data\Solana2019-50-50\merged_labels_Solana2019a_50per.csv')
 
 	# ======= Process Pcaps ===============================
-	# splitPcaps(path=[r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\splits\70-30percent\7Class\test_30per'],
+	# splitPcaps(path=[r"D:\Data\TestFiles\train_test_splits\Solana2020a\splits\80-20percent\6Class\train_80per"],
 	#            result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\merged_files\Solana2019-70-30\pcaps',
 	#            pcap_size_mb=380)
 
-	getPcaps(path=[r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\merged_files\Solana2019-70-30\pcaps'],
-	         result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\final_test_data\Solana2019-70-30\pcaps')
+	# getPcaps(path=[r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\merged_files\Solana2019-70-30\pcaps'],
+	#          result_path=r'C:\Users\Owner\mltat\data\mltat\TestFiles\train_test\Solana2019\final_test_data\Solana2019-70-30\pcaps')
