@@ -1,3 +1,0 @@
-#  To start Anaconda and Jupyter notebooks
-> cd ~/anaconda/bin
-> ./anaconda-navigator
